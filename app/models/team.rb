@@ -1,14 +1,14 @@
 require 'pry'
 class Team
-  attr_reader :name, :power, :biography
+  attr_reader :name, :motto
 
   TEAMS = []
 
   def initialize(params)
     #binding.pry
     @name = params[:name]
-    @power = params[:power]
-    @biography = params[:biography]
+    @motto = params[:motto]
+  
     TEAMS << self
   end
 
