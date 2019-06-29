@@ -8,7 +8,7 @@ class Team
     #binding.pry
     @name = params[:name]
     @motto = params[:motto]
-  
+
     TEAMS << self
   end
 
